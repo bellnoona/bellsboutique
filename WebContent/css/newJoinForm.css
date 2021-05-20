@@ -1,0 +1,100 @@
+@charset "UTF-8";
+        #join_container{
+        font-family: 'Montserrat','NotoSansKR',sans-serif;
+            width:100%;
+            margin:0 auto;
+            margin-left:auto;  
+            margin-right:auto; 
+            text-align:center;
+        }
+        
+        .table{
+        margin:0 auto;
+        border-collapse: collapse;
+         margin-bottom: 2em;
+        }
+        
+        .table td{
+        font-family: 'Montserrat','NotoSansKR',sans-serif;
+/*             border:1px solid black; */
+			width: 500px;
+            height: 3.5em;
+            text-align: left;
+            border-bottom: 	#DDDDDD;
+            padding:1.7em 0;
+            	border-top: 1px solid #DDDDDD;
+            }
+        
+        
+        .table th{
+        width:300px;
+        height:2em;
+        background-color: #FBFBFB;
+        text-align: left;
+         font-family: 'Montserrat','NotoSansKR',sans-serif;
+         font-weight: bold;
+         font-size: 14px;
+         color: #6A6A6A;
+		padding-left: 1em;
+		border-top: 1px solid #DDDDDD;
+        }
+        
+        input{
+        height:2.5em;
+        width:300px;
+        font-family: 'Montserrat','NotoSansKR',sans-serif;
+        color: #6A6A6A;
+        }
+        
+        h1.member{
+        color:#303030;
+        font-family: 'Montserrat','NotoSansKR',sans-serif;
+         font-weight: bold;
+         text-align: left;
+         font-size: 30px;
+         margin-left: 18em;
+         margin-bottom:1em;
+        }
+        
+        
+        tr{
+        border-bottom: 1px solid #DDDDDD;
+        }
+        
+        #idBox{
+        height:2.5em !important;
+        width:200px !important;
+        }
+        .double{
+        height:2.5em;
+		font-family: 'Montserrat','NotoSansKR',sans-serif;    
+		color:#6A6A6A;
+		width:5em; 
+        }
+        
+        #emailSelect{
+        color:#6A6A6A;
+        font-family: 'Montserrat','NotoSansKR',sans-serif;    
+        height:2.5em;
+        }
+        
+        #postcodeBox{
+        height:2.5em;
+		font-family: 'Montserrat','NotoSansKR',sans-serif;    
+		color:#6A6A6A;
+		width:7.5em; 
+        }
+        
+        input:focus {outline:1px solid #DDDDDD;}
+        
+        #message1,#message2,#message3,#message4,#message5,#message6 {
+        	color: #343434;
+        	font-weight: bold;
+        }
+        
+        #message1-1,#message2-1,#message3-1,#message4-1,#message5-1,#message6-1 {
+        	color: #61A3F9;
+        	font-weight: bold;
+        }
+        
+        

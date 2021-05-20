@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+body {
+	width: 75%;
+	margin: 0 auto;	
+}
+
+.product {
+	margin:0 auto;	
+}
+
+.product td {
+	font-family: 'Montserrat','NotoSansKR',sans-serif;
+	text-align: left;
+	margin-left: 10em;
+}
+
+.pname {
+	font-size: 25px;
+	font-weight: bold;	
+	color:#333333;
+	padding-bottom: 1em;
+}
+
+.price {
+	font-size:23px;
+	font-weight: bold;	
+	color:#333333;
+}
+
+.first {
+	font-size: 18px;
+	color:#929292;
+	line-height: 8px;
+}
+
+.second {
+	font-size: 17px;
+	text-align: left;
+	color:#5E5E5E;
+	line-height: 6px;
+	margin-right: 1em;
+}
+
+.image {
+	padding-right: 6em;
+}
+
+.btn1 {
+	background-color: white;
+	border: 1px solid #999;
+	color:#303030;
+	width:150px;
+	height:70px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.btn2 {
+	background-color: #303030;
+	color:white;
+	width:150px;
+	height:70px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.btn2:hover{
+	background-color: black;
+	font:white;
+}
+
+.second>input {
+	width:3.5em;
+	height:1.5em;
+	text-align: right;
+	font-family: 'Montserrat','NotoSansKR',sans-serif;
+	font-size: 15px;
+}
+
+#content-search .btn3{
+	width: 13em;height: 4em;border: 1px solid #999;
+ font-family: 'Montserrat','NotoSansKR',sans-serif;
+ color:#303030;
+ font-weight:bold;
+ font-size:15px;
+background-color:white;
+margin-left: 11em;
+margin:5em 0 8em 11em;
+}
+
+input:focus {outline:1px solid #DDDDDD;}
+	
+}
+#content-search {
+/* 	margin-top:2em; */
+}

@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body {
+	width:75%;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: 'Montserrat','NotoSansKR',sans-serif;
+	color:#333;
+	font-weight: bold;
+	text-align: left;
+	margin-top: 3em;
+	margin-left: 6em;
+}
+
+.contact-container {
+		font-family: 'Montserrat','NotoSansKR',sans-serif;
+		text-align: left;
+		width:30%;
+		margin-left: 45em;
+		margin-top:7em;
+		margin-bottom: 10em;
+		font-size: 15px;
+		line-height: 30px;
+		border : 2px solid #DDDDDD;
+/* 		border-radius : 5%; */
+		padding: 1em;
+		padding-left: 4em;
+		box-shadow: 12px 12px #DDDDDD;
+}
+
+.contact {
+	margin: 1em auto;
+	text-align: left;
+/* 	font-weight: bold; */
+font-weight: 500;
+}
+
+.contact >a {
+	color: #333;
+}
+
+#map {
+	margin: 10em 0 12em 12em;
+	float: left;
+	padding: 0;
+}
